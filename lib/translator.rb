@@ -1,7 +1,7 @@
 require "yaml"
 require "pry"
 
-def load_library(emoticons)
+def load_library(file_path)
   emoticons = YAML.load_file('lib/emoticons.yml')
   new_emoticons = {}
   emoticons.each do |word, face|
@@ -17,7 +17,7 @@ def get_japanese_emoticon(library,emoticons)
 end
 
 def get_english_meaning(library,emoticons)
-  library = YAML.load_file('lib/emoticons.yml')
+  emoticons_hash = load_library()
 
 
 end
