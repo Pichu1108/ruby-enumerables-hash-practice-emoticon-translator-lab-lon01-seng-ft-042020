@@ -12,7 +12,7 @@ def load_library(emoticons)
   new_emoticons
 end
 
-def get_japanese_emoticon(load_library,emoticons)
+def get_japanese_emoticon(library,emoticons)
 
 end
 
