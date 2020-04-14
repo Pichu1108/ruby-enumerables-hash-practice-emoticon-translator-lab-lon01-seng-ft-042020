@@ -17,7 +17,8 @@ def get_japanese_emoticon(file_path,emoticon)
   new_emoticons.each do |key, value|
     if value[:english] == emoticon
       return value[:japanese]
-  end
+    else
+    "Sorry, that emoticon was not found"
 
 end
 
