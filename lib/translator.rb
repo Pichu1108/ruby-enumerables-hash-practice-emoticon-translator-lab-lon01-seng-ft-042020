@@ -12,8 +12,8 @@ def load_library(emoticons)
   new_emoticons
 end
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(lead_library,emoticons)
+
 end
 
 def get_english_meaning
