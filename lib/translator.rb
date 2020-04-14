@@ -8,7 +8,6 @@ def load_library(emoticons)
       new_emoticons[word]= {}
       new_emoticons[word][:english]= face[0]
       new_emoticons[word][:japanese]= face[1]
-    end
   end
 
 
