@@ -9,7 +9,6 @@ def load_library(emoticons)
       new_emoticons[key]= {}
       new_emoticons[key] = "#{value}"
     end
-    binding.pry
   end
 
 
