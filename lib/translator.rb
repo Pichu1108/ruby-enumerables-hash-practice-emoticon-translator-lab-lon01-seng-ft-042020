@@ -6,7 +6,7 @@ def load_library(emoticons)
   new_hash = {}
   emoticons.each do |word, face|
     face.each do |string|
-
+      new_hash[wornd] = {}
     end
   end
 
