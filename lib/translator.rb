@@ -3,10 +3,12 @@ require "pry"
 
 def load_library(emoticons)
   emoticons = YAML.load_file('lib/emoticons.yml')
-  new_hash = {}
+  new_emoticons = {}
   emoticons.each do |word, face|
     face.each do |face_value, new_value|
-      eg_
+      new_value.each do |eg_jap|
+        new_emoticons
+      end
     end
   end
 
