@@ -8,7 +8,7 @@ def load_library(emoticons)
     face.each do |value|
       new_emoticons[word]= {}
       new_emoticons[word][:english]<< value
-      new_emoticons[word][:japanese]=[]
+      new_emoticons[word][:japanese]<< value
       binding.pry
     end
   end
