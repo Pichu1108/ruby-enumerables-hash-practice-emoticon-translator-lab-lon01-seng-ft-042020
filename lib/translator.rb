@@ -19,6 +19,4 @@ end
 def get_english_meaning(file_path,emoticons)
 new_emoticons= load_library(file_path)
 
-puts "Sorry, that emoticon was not found"
-
 end
