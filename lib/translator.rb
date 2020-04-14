@@ -7,7 +7,7 @@ def load_library(emoticons)
   emoticons.each do |key, value|
     if !new_emoticons[key]
       new_emoticons[key]= {}
-      new_emoticons[key] = {"#{value}"}
+      new_emoticons[key] = "#{value}"
     end
     binding.pry
   end
