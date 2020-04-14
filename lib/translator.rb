@@ -7,8 +7,8 @@ def load_library(emoticons)
   emoticons.each do |word, face|
     face.each do |key, value|
       new_emoticons[word]= {}
-      new_emoticons[word][:english]=[]
-      new_emoticons[word][:japanese]=[]
+      new_emoticons[word][:english]=[0]
+      new_emoticons[word][:japanese]=[1]
     end
   end
 
