@@ -4,10 +4,13 @@ angel:
   japanese:
     - "☜(⌒▽⌒)☞"
 angry:
-  - ">:("
+  english:
+    - ">:("
+
   - "ヽ(ｏ`皿′ｏ)ﾉ"
 bored:
-  - ":O"
+  english:
+    - ":O"
   - "(ΘεΘ;)"
 confused:
   - "%)"
