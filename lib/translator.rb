@@ -6,7 +6,7 @@ def load_library(emoticons)
   new_hash = {}
   emoticons.each do |word, face|
     new_hash[word] = {}
-    new_hash[word]<< :english,:japanese
+    new_hash[word]<< :english
   end
 
 
