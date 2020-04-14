@@ -8,7 +8,6 @@ def load_library(emoticons)
     if !new_emoticons[key]
       new_emoticons[key] = {}
     end
-    binding.pry
   end
 
 
