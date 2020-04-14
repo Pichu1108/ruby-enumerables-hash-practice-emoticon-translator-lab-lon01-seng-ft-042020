@@ -29,7 +29,8 @@ glasses:
     - "8D"
   - "(^0_0^)"
 grinning:
-  - "=D"
+  english:
+    - "=D"
   - "(￣ー￣)"
 happy:
   - ":)"
