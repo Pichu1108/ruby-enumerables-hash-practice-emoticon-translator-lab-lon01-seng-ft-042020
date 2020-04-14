@@ -11,6 +11,7 @@ def load_library(emoticons)
       new_emoticons[word][:japanese]=[]
       key.each do |value|
         new_emoticons[word][key][value]
+        binding.pry
       end
     end
   end
