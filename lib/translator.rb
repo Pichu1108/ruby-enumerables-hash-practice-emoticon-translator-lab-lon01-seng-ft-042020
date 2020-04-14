@@ -10,7 +10,7 @@ def load_library(emoticons)
       new_emoticons[word][:japanese]= face[1]
   end
 
-binding.pry
+
   new_emoticons
 end
 
