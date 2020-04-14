@@ -5,9 +5,8 @@ def load_library(emoticons)
   emoticons = YAML.load_file('lib/emoticons.yml')
   new_emoticons = {}
   emoticons.each do |key, value|
-    if !new_emoticons[key]
+
       new_emoticons[key]= {}
-    end
   end
 
 
