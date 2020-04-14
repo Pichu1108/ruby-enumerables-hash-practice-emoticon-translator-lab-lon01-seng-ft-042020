@@ -18,5 +18,6 @@ end
 
 def get_english_meaning(file_path,emoticons)
 new_emoticons= load_library(file_path)
-  new_emoticons.include?(emoticons)  
+  new_emoticons.include?(emoticons)
+  binding.pry
 end
