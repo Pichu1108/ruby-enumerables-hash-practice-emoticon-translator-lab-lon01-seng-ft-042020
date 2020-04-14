@@ -1,36 +1,26 @@
 angel:
-  english:
-    - "O:)"
-  japanese:
-    - "☜(⌒▽⌒)☞"
+  - "O:)"      
+  - "☜(⌒▽⌒)☞"
 angry:
-  english:
-    - ">:("
-
+  - ">:("
   - "ヽ(ｏ`皿′ｏ)ﾉ"
 bored:
-  english:
-    - ":O"
+  - ":O"
   - "(ΘεΘ;)"
 confused:
-  english:
-    - "%)"
+  - "%)"
   - "(゜.゜)"
 embarrassed:
-  english:
-    - ":$"
+  - ":$"
   - "(#^.^#)"
 fish:
-  english:
-    - "><>"
+  - "><>"
   - ">゜))))彡"
 glasses:
-  english:
-    - "8D"
+  - "8D"
   - "(^0_0^)"
 grinning:
-  english:
-    - "=D"
+  - "=D"
   - "(￣ー￣)"
 happy:
   - ":)"
