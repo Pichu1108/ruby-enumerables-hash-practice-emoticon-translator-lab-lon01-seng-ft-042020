@@ -9,6 +9,9 @@ def load_library(emoticons)
       new_emoticons[word]= {}
       new_emoticons[word][:english]=[]
       new_emoticons[word][:japanese]=[]
+      key.each do |value|
+
+      end
     end
   end
 
