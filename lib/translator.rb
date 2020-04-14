@@ -9,6 +9,7 @@ def load_library(emoticons)
       new_emoticons[word]= {}
       new_emoticons[word][:english]=[0]
       new_emoticons[word][:japanese]=[1]
+      binding.pry
     end
   end
 
