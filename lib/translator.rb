@@ -18,6 +18,6 @@ end
 
 def get_english_meaning(file_path,emoticons)
 new_emoticons= load_library(file_path)
-  new_emoticons.has_value?(emoticons)
+  new_emoticons[word][:japanese].has_value(emoticons)
   binding.pry
 end
