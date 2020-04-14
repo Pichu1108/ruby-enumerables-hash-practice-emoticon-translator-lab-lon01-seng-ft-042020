@@ -5,8 +5,8 @@ def load_library(emoticons)
   emoticons = YAML.load_file('lib/emoticons.yml')
   new_hash = {}
   emoticons.each do |word, face|
-    face.each do |eg_or_jap|
-
+    face.each do |face_value, new_value|
+      eg_
     end
   end
 
