@@ -20,6 +20,6 @@ def get_english_meaning(file_path,emoticons)
 new_emoticons= load_library(file_path)
 if emoticons
 else
-puts ""Sorry, that emoticon was not found""
+puts "Sorry, that emoticon was not found"
 
 end
